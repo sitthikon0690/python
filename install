@@ -1,0 +1,2 @@
+C:\Users\WTFTHE\AppData\Local\Programs\Python\Python312\python.exe -m  pip install scikit-image
+py -3.14 -m pip install numpy pandas
