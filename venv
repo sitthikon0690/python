@@ -1,8 +1,0 @@
-    cd E:\Code\code\Python\9_Python_&_LangChain
-สร้าง virtual env ด้วย 3.14.2
-    py -3.14 -m venv .venv
-เปิดใช้งาน venv
-    .\.venv\Scripts\activate
-    python --version
-    python -m pip install langchain
-
