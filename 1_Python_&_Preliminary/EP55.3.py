@@ -9,7 +9,6 @@
 a1={1,2,3}
 a2={2,3,4,5}
 print(a1-a2) #แบบนี้ก็ได้
-#a1.difference(a2)จะไม่เกิดผล
 a3=a1.difference(a2)
 print(a3)
 #difference_update A.difference_update(B)

@@ -3,6 +3,10 @@ a=[10,20,30]
 b=["ส้ม","มะม่วง","มะนาว"]
 for y,x in zip(a,b):
     print(y,x)
+
+for i in zip(a,b):
+    print(i)
+
 b=["ส้ม","มะม่วง","มะนาว"]
 for y,x in zip(a[::-1],b):
     print(y,x)

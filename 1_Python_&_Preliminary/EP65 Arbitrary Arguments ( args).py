@@ -16,7 +16,8 @@ def b1(*b1):
 b1(1,2,3)
 aca=[1,2,3]
 b1(aca)
-print('')
+print('b1')
+
 
 def b2(*b1):
     print(b1[0]+b1[1])

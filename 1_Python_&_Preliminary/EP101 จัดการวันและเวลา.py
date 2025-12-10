@@ -2,7 +2,7 @@
 import datetime
 from time import strftime 
 a=datetime.datetime.now() #ดึงเวลาปัจจุบันมาใช้
-print(a) #แสดงทั้งหมด
+print(a) #แสดงทั้งหมด 2025-11-03 20:52:03.663156
 print(a.year) #แสดงปี
 print(a.month) #แสดงเดือน
 print(a.day) #แสดงวัน
@@ -10,7 +10,7 @@ print(a.day) #แสดงวัน
 print('')
 
 #กำหนดเอง
-b=datetime.datetime(2022,4,12,15,12,12,12) #y/m/d/h/m/n/เล็กกว่าวินาที
+b=datetime.datetime(2022,4,12,15,12,12,12)#y/m/d/h/m/n/เล็กกว่าวินาที
 print(b)
 print('')
 #รูปแบบการแสดงผล
@@ -30,18 +30,19 @@ print(a,strftime("%j")) #103
 print('')
 
 #date
+print(a,strftime("%d")) # วันที่
 print(a,strftime("%a")) # แบบสั้น    Wed
 print(a,strftime("%A")) # แบบเต็ม    Wednesday
-print(a,strftime("%w")) # ลำกับในวัน  sunday = 0
+print(a,strftime("%w")) # ลำดับในวัน  sunday = 0
 print(a,strftime("%d")) # วันที่
+print(a,strftime("%m")) # เดือนตัวเลข
 print(a,strftime("%b")) # เดือนแบบสั้น
 print(a,strftime("%B")) # เดือนแบบยาว
+print(a,strftime("%y")) # 25
+print(a,strftime("%Y")) # 2025
 print('')
 
 print(a,strftime("%A%d%B%Y")) #แบบติดกัน
 print(a,strftime("%A %d %B %Y")) #แบบดว้นวรรค
 print(a,strftime("a %A b %d")) #ใช้ภาษาไทยไม่ได้
 print('')
-
-# ว/ด/ป
-print(a,strftime("%d %m %B %Y"))

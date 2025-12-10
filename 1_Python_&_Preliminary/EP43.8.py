@@ -1,9 +1,14 @@
 #remove,pop,del,clear
 #remove(ตัวที่ต้องการลบ)
-a=[1,2,3,4,5,6,]
+a=[1,2,3,4,5,6,2]
 b=[1,2,3,4,5,6]
 a.remove(2)
 print(a)
+
+# while 3 in a:
+#     a.remove(3)
+# print(a)
+
 #pop(index) ไม่ใส่เทากับลบตัวสุดท้าย
 a.pop()#ลบตัวสุดท้าย
 print(a)

@@ -11,11 +11,11 @@ print('')
 a.update({"yellow":"สีเหลือง","red":"สีเขียว"})
 print(a)
 print('')
-a.popitem() #ลบตัวที่เพิ่มล่าสุดหรือตัวท้ายสุด  ไม่นำตัวที่แก้ไข
+a.popitem() #ลบตัวที่เพิ่มล่าสุดหรือตัวท้ายสุด  ไม่นับตัวที่แก้ไข
 print(a)
 print('')
-b.clear #ไม่ได้
+b.clear()
 print(b)
 print('')
 del a
-print(a)
+# print(a)

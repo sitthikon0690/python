@@ -1,9 +1,10 @@
 #การส่งค่าเข้ามาที่ function
+c=[1,2,3]
 def a(a): 
     print(a)
 a("a1")
 a("b")
-a("1")
+a(c)
 print('')
 
 def b(a):

@@ -1,4 +1,4 @@
-               #BreK = ออกจาก loop
+               #BreaK = ออกจาก loop
                #Continue = ข้ามรอบนี้
 #BreK = ออกจาก loop
 '''

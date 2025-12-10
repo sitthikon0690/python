@@ -13,5 +13,6 @@ a=number3.index(3)#หาตำแหน่งจะเจอแค่ตัว�
 print(a)
 
 number2=["s","v"]
-number2["s"]="r"
+# number2["s"]="r"
+number2[0]="r"
 print(number2)

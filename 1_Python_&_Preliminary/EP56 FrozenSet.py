@@ -3,7 +3,7 @@ a=set([1,2,3])
 a.add(4)
 a.discard(2)
 
-b=frozenset([1,2,3])
+b=frozenset({1,2,3})
 print(type(b))
 #b.add(4)   ไม่ได้
 #b.discard(2)   ไม่ได้

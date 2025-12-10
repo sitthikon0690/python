@@ -9,14 +9,14 @@ b=2
 a()
 print(b)
 
-print('')
+print('y')
 
+y=2
 #Local
 def x():
     y=1
-    print("a")
+    print(y)
 #Global 
-y=2
 x()
 print(y)
 

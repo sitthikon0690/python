@@ -8,7 +8,7 @@ while a<=3:
     a+=1
 print("จบโปรแกรม")
 #for
-for a in range(1,5):
+for a in range(0,5):
     print(a)
 print(" ")
 for b in range(1,10,2):

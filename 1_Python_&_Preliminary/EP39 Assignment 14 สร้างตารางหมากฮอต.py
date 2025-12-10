@@ -21,5 +21,5 @@ for b in range(a):
 a=int(input("กรอกตัวเลข : "))
 for b in range(a):
      for c in range(a):
-         print("x",end="")if(b+c)%2==0 else print("o",end="")
+         print("x  ",end="")if(b+c)%2==0 else print("o  ",end="")
      print("")

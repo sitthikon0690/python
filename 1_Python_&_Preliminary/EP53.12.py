@@ -1,7 +1,7 @@
 #นำค่า tuple ใส่ตัวแปร
 print("นำค่า tuple ใส่ตัวแปร")
 a=(1,2,7)
-#a=b,c,d ไม่ได้
+#a+=b,c,d a+=[b,c,d] ถ้าเป็น Listได้  / a+= b + c + d
 b,c,d=a
 print(b,end='')
 print(type(b))

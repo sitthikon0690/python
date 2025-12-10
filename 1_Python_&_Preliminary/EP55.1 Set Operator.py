@@ -10,7 +10,6 @@ a1={1,2,3}
 a2={2,3,4,5}
 a5={1,2,3}
 print(a1|a2) #แบบนี้ก็ได้
-#a1.union(a2)จะไม่เกิดผล ต้อง print
 a3=a1.union(a2)
 print(a3)
 #หรือ
@@ -19,3 +18,7 @@ print(a1)
 #coppy
 a4=a5.copy()
 print(a4)
+
+b = {2,3,4,5}
+b = b.difference_update({2,3})
+print(b)   # None  ← พังแล้ว
